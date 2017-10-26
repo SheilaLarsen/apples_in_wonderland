@@ -1,0 +1,163 @@
+
+/*-------------------------------------- basic styling --------------------------------------*/
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    background-color: #F5F1EE;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    font-size: 16px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width:auto;
+}
+
+article {
+    padding-bottom: 20px;
+}
+
+#infobox {
+    width: 100%;
+    height: 40vh;
+    color: white;
+    background-color: #C6C478;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: #26221C;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* styling til at give luft mellem afsnit */
+.space-between {
+    padding-bottom: 40px;
+}
+
+.split {
+    margin-bottom: 20px;
+}
+
+.sammeHojde {
+    padding-bottom: 20px;
+}
+
+/*----------------------------------------- typografi ------------------------------------------*/
+/* font-family: 'Norican', cursive;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 38px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+/*-------------------------------------- billeder og ikoner --------------------------------------*/
+
+.thumb-img {
+    height: 50px;
+    width: auto;
+}
+/*----------------------------------------- link og knapper ------------------------------------------*/
+
+.dropdown-menu>li>a {
+    color: #C6C478 !important;
+}
+
+.dropdown-menu>li>a:hover {
+    color: white !important;
+}
+
+.navbar-nav>.open>a {
+    background-color: #7C6333 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.btn {
+    min-width: 150px;
+    font-weight: 600;
+    color: white;
+    background-color: #CA340F;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #CE4B00;
+    
+}
+
+a{
+    font-weight: 600;
+    color: #CECB1F;
+}
+
+a:hover {
+    font-weight: 600;
+    color: #A7A21F;
+    text-decoration: none;
+}
+
+address a{
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.40);
+}
+
+address a:hover {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.80);
+    text-decoration: none;
+}
+
+address strong, address p {
+    color: white;
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px){
+    body {
+        padding-top: 130px;
+    }
+
+    #infobox {
+        width: 50%;
+        height: 50vh;
+    }
+}
