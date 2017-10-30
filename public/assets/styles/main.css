@@ -7,13 +7,14 @@ html {
 
 body {
     background-color: #F5F1EE;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 90px;
     font-size: 16px;
 }
 
 .navbar {
     height: 80px;
+    background-color: rgb(31, 14, 55);
 }
 
 .navbar-brand img {
@@ -92,20 +93,18 @@ h3 {
 }
 /*----------------------------------------- link og knapper ------------------------------------------*/
 
-.dropdown-menu>li>a {
-    color: #C6C478 !important;
+.navbar-collapse >ul>li>a {
+    color: rgb(57, 52, 93);
+    font-weight: 600 !important;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
 }
 
-.dropdown-menu>li>a:hover {
-    color: white !important;
-}
-
-.navbar-nav>.open>a {
-    background-color: #7C6333 !important;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-    color: rgba(255, 255, 255, 0.80);
+.navbar-collapse >ul>li>a:hover {
+    color: rgb(132, 132, 165);
+    background-color: rgb(31, 14, 55);
 }
 
 .btn {
@@ -157,7 +156,7 @@ input:-webkit-autofill {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px){
     body {
-        padding-top: 130px;
+        padding-top: 80px;
     }
 
     #infobox {
