@@ -1,0 +1,13 @@
+﻿
+
+
+header li {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Berkshire Swash';
+    font-size: 24px;
+}
